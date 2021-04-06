@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="PRAGYA">
+    <title>Dashboard - BOOTSTRAP</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar navbar-light sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block background-light sidebar collapse">
+                <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Dashboard Kit</a>
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column border-bottom">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                <span data-feather="home"></span>
+                                Overview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file"></span>
+                                Tickets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Ideas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users"></span>
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                Agents
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="layers"></span>
+                                Articles
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                Subscription
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 tickets-table-padding">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+                    <h1 class="h2">All Tickets</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+                        <div class="btn-group me-2">
+                            Pragya Paraksh
+                        </div>
+
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-3 shadow-sm table-responsive bottom-padding">
+                    <div class="row g-0 overflow-hidden flex-md-row position-relative">
+                        <div class="tickets-title-padding">
+                            <p class="text-title">All Tickets</p>
+                        </div>
+                        <div class="container">
+                            <table class="table table-padding">
+                                <thead class="header-style tickets-table-padding">
+                                    <tr>
+                                        <th scope="col">Ticket Details</th>
+                                        <th scope="col">Customer Name</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Priority</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-padding">
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Contact email not linked</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Tom Cruise</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-high">HIGH</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Adding images to posts</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Matt Cruise</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-normal">NORMAL</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">When will be charged this month</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 2 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Robert Dawney</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-low">LOW</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Payment not going through</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Bryan Cranston</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-normal">NORMAL</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Contact email not linked</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Tom Cruise</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-high">HIGH</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Adding images to posts</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Matt Cruise</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-normal">NORMAL</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">When will be charged this month</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 2 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Robert Dawney</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-low">LOW</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-3 themed-grid-col icon-style">ICON</div>
+                                                    <div class="col-md-6 themed-grid-col">
+                                                        <div>
+                                                            <p class="td-title">Payment not going through</p>
+                                                        </div>
+                                                        <div>
+                                                            <p class="td-subtitle">Updated 1 day ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">Bryan Cranston</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">on 24-02-2016</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-md-6 themed-grid-col">
+                                                <div>
+                                                    <p class="td-title">May 26, 2019</p>
+                                                </div>
+                                                <div>
+                                                    <p class="td-subtitle">6:00 PM</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn button-normal">NORMAL</button>
+                                        </td>
+
+                                        <td>
+                                            ICON
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

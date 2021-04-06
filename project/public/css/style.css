@@ -1,0 +1,404 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.background-light {
+    background-color: #363740!important;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.h2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.padding-div {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rect-class {
+    width: 100%;
+    height: 100%;
+    fill: beige;
+}
+
+.col-graph {
+    flex: 1 0 0%;
+}
+
+.text-1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.4px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+}
+
+.text-2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* grayscale / black */
+    color: #252733;
+}
+
+.text-3 {
+    /* Bold 24 (0.3 px) */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    /* grayscale / black */
+    color: #252733;
+    padding-bottom: .5rem;
+}
+
+.text-4 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    text-align: center;
+    letter-spacing: 0.3px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+    padding-bottom: .5rem;
+}
+
+.padding-div-tickets {
+    padding: 1rem!important;
+}
+
+.text-grayscale {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.2px;
+    /* grayscale / black */
+    color: #252733;
+}
+
+.text-grayscale-subtext {
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+}
+
+.a-text {
+    color: #3751FF;
+}
+
+.text-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.4px;
+    /* grayscale / black */
+    color: #252733;
+}
+
+.text-subtitle {
+    /* Reg 12 (0.1 px) */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.1px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+    text-align: left;
+}
+
+.margin-div {
+    margin: 1.0rem;
+}
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        flex: 1 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+/* Tablet and bigger */
+
+@media ( min-width: 768px) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 0rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.color-bg {
+    background-color: bisque;
+}
+
+.bottom-padding {
+    margin-bottom: 2rem;
+}
+
+.text-task {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.2px;
+    /* grayscale / gray light */
+    color: #C5C7CD;
+}
+
+.button-primary {
+    background: #FEC400;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #FFFFFF;
+}
+
+.button-primary-1 {
+    background: #29CC97;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #FFFFFF;
+}
+
+.button-primary-default {
+    background: #F0F1F7;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #9FA2B4;
+}
+
+.header-style {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.2px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+}
+
+.icon-style {
+    align-self: center;
+}
+
+.td-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.2px;
+    /* grayscale / black */
+    color: #252733;
+}
+
+.td-subtitle {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.1px;
+    /* grayscale / gray light */
+    color: #C5C7CD;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.button-high {
+    background: #F12B2C;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #FFFFFF;
+}
+
+.button-low {
+    background: #FEC400;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #FFFFFF;
+}
+
+.button-normal {
+    background: #29CC97;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /* grayscale / white */
+    color: #FFFFFF;
+}
+.tickets-title-padding{
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.tickets-table-padding{
+    padding-top: 32px;
+    padding-left: 32px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "pragya",
+  "license": "true",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

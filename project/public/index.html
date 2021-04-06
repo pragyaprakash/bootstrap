@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="PRAGYA">
+    <title>Dashboard - BOOTSTRAP</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar navbar-light sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block background-light sidebar collapse">
+                <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Dashboard Kit</a>
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column border-bottom">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span data-feather="home"></span>
+                                Overview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tickets.html">
+                                <span data-feather="file"></span>
+                                Tickets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Ideas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users"></span>
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                Agents
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="layers"></span>
+                                Articles
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                Subscription
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+                    <h1 class="h2">Overview</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+                        <div class="btn-group me-2">
+                            Pragya Paraksh
+                        </div>
+
+                        <div class="btn-group me-2">
+                            ICON
+                        </div>
+
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <div class="row mb-3 text-center">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <p class="text-1">Unresolved</p>
+                                    <p class="text-2">60</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <p class="text-1">Overdue</p>
+                                    <p class="text-2">16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <p class="text-1">Open</p>
+                                    <p class="text-2">43</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <p class="text-1">On Hold</p>
+                                    <p class="text-2">50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-3 shadow-sm table-responsive bottom-padding">
+                    <div class="row g-0 overflow-hidden flex-md-row position-relative">
+                        <div class="container">
+                            <div class="row grid-divider">
+                                <div class="col-sm-4 color-bg">
+                                    <div>
+                                        <div
+                                            class="col-graph d-flex flex-column position-static text-center padding-div-tickets">
+                                            Graph
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div>
+                                        <table class="table text-center">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-4">Resolved</div>
+                                                        <div class="text-3">234</div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-4">Recieved</div>
+                                                        <div class="text-3">426</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-4">Average first response time</div>
+                                                        <div class="text-3">33m</div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-4">Average response time</div>
+                                                        <div class="text-3">3h 8m</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-4">Resolution with SLA</div>
+                                                        <div class="text-3">94%</div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="table-responsive">
+                    <div class="row mb-3 text-center">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <div class="padding-div-tickets mb-0 small lh-sm w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-title">Unresolved Tickets</p>
+                                            <p class="a-text">View Details</p>
+                                        </div>
+                                        <div class="text-subtitle">
+                                            Group: Support
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-grayscale">Waiting on feature request</p>
+                                            <p class="text-grayscale-subtext">4238</p>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-grayscale">Awaiting Customer Response</p>
+                                            <p class="text-grayscale-subtext">4238</p>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-grayscale">Awaiting Response</p>
+                                            <p class="text-grayscale-subtext">4238</p>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-grayscale">Pending</p>
+                                            <p class="text-grayscale-subtext">4238</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-body">
+                                    <div class="padding-div-tickets mb-0 small lh-sm w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-title">Today</p>
+                                            <p class="a-text">View all</p>
+                                        </div>
+                                        <div class="text-subtitle">
+                                            Today
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-task">Create new task</p>
+                                            <p class="text-grayscale-subtext">icon</p>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-center">
+                                                <input type="radio" id="radio1" name="radio1" value="radio1">
+                                                <label for="male" class="text-grayscale">Finish ticket update</label>
+                                            </div>
+                                            <button type="button" class="btn button-primary">URGENT</button>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-center">
+                                                <input type="radio" id="radio2" name="radio2" value="radio2">
+                                                <label for="male" class="text-grayscale">Create new ticket
+                                                    example</label>
+                                            </div>
+                                            <button type="button" class="btn button-primary-1">NEW</button>
+                                        </div>
+                                    </div>
+                                    <div class="padding-div-tickets mb-0 small lh-sm border-bottom w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-center">
+                                                <input type="radio" id="radio2" name="radio2" value="radio2">
+                                                <label for="male" class="text-grayscale">Update ticket report</label>
+                                            </div>
+                                            <button type="button" class="btn button-primary-default">DEFAULT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
